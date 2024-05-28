@@ -35,4 +35,4 @@ yarn-error.*
 # yarn
 yarn.lock
 
-
+%ProgramData%/Microsoft/Windows/UUS/State/_active.uusver
