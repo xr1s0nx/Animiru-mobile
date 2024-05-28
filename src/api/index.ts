@@ -1,0 +1,1 @@
+export { apiAnimes } from './animes';

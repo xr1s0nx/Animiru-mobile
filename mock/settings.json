@@ -1,0 +1,100 @@
+{
+  "uuid": "ad0dad39-48bf-40b8-8934-3aaaa801fd88",
+  "lastMigration": 32,
+  "name": "Settings",
+  "endpointPrefix": "api",
+  "latency": 0,
+  "port": 3002,
+  "hostname": "192.168.0.135",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "123b1641-bc1c-4ac2-9d52-adb2ff90428e",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "animes",
+      "responses": [
+        {
+          "uuid": "9bed7d36-5bb2-42b2-9570-230738bd4e62",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "",
+          "databucketID": "hatb",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "123b1641-bc1c-4ac2-9d52-adb2ff90428e"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "http://10.0.0.44:8080",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": [
+    {
+      "uuid": "d7f01be5-638a-4f2f-8a54-387480eb176e",
+      "id": "hatb",
+      "name": "Animes",
+      "documentation": "",
+      "value": "[\n  {\n    \"id\": 0,\n    \"title\": {\n      \"ru\": \"Ru\",\n      \"jap\": \"Jap\"\n    },\n    \"description\": \"Description\",\n    \"images\": {\n      \"banner\": \"https://i.pinimg.com/originals/16/1d/5e/161d5e5d102d42d7513e89c4ecb586ca.jpg\",\n      \"screens\": [\"https://media.kg-portal.ru/anime/t/tenseishitaraslimedattaken2/trailers/42996t_2x.jpg\", \"https://pbs.twimg.com/media/E0JGD_vWQAkOJ2y.jpg\"]\n    }\n  },\n  {\n    \"id\": 1,\n    \"title\": {\n      \"ru\": \"Ru\",\n      \"jap\": \"Jap\"\n    },\n    \"description\": \"Description\",\n    \"images\": {\n      \"banner\": \"https://cdn1.ozone.ru/s3/multimedia-u/6254451954.jpg\",\n      \"screens\": [\"https://media.kg-portal.ru/anime/t/tenseishitaraslimedattaken2/trailers/42996t_2x.jpg\", \"https://pbs.twimg.com/media/E0JGD_vWQAkOJ2y.jpg\"]\n    }\n  },\n  {\n    \"id\": 2,\n    \"title\": {\n      \"ru\": \"Ru\",\n      \"jap\": \"Jap\"\n    },\n    \"description\": \"Description\",\n    \"images\": {\n      \"banner\": \"https://cdn1.ozone.ru/s3/multimedia-u/6254451954.jpg\",\n      \"screens\": [\"https://media.kg-portal.ru/anime/t/tenseishitaraslimedattaken2/trailers/42996t_2x.jpg\", \"https://pbs.twimg.com/media/E0JGD_vWQAkOJ2y.jpg\"]\n    }\n  },\n  {\n    \"id\": 3,\n    \"title\": {\n      \"ru\": \"Ru\",\n      \"jap\": \"Jap\"\n    },\n    \"description\": \"Description\",\n    \"images\": {\n      \"banner\": \"https://cdn1.ozone.ru/s3/multimedia-u/6254451954.jpg\",\n      \"screens\": [\"https://media.kg-portal.ru/anime/t/tenseishitaraslimedattaken2/trailers/42996t_2x.jpg\", \"https://pbs.twimg.com/media/E0JGD_vWQAkOJ2y.jpg\"]\n    }\n  },\n  {\n    \"id\": 4,\n    \"title\": {\n      \"ru\": \"Ru\",\n      \"jap\": \"Jap\"\n    },\n    \"description\": \"Description\",\n    \"images\": {\n      \"banner\": \"https://cdn1.ozone.ru/s3/multimedia-u/6254451954.jpg\",\n      \"screens\": [\"https://media.kg-portal.ru/anime/t/tenseishitaraslimedattaken2/trailers/42996t_2x.jpg\", \"https://pbs.twimg.com/media/E0JGD_vWQAkOJ2y.jpg\"]\n    }\n  },\n  {\n    \"id\": 5,\n    \"title\": {\n      \"ru\": \"Ru\",\n      \"jap\": \"Jap\"\n    },\n    \"description\": \"Description\",\n    \"images\": {\n      \"banner\": \"https://cdn1.ozone.ru/s3/multimedia-u/6254451954.jpg\",\n      \"screens\": [\"https://media.kg-portal.ru/anime/t/tenseishitaraslimedattaken2/trailers/42996t_2x.jpg\", \"https://pbs.twimg.com/media/E0JGD_vWQAkOJ2y.jpg\"]\n    }\n  },\n  {\n    \"id\": 6,\n    \"title\": {\n      \"ru\": \"Ru\",\n      \"jap\": \"Jap\"\n    },\n    \"description\": \"Description\",\n    \"images\": {\n      \"banner\": \"https://cdn1.ozone.ru/s3/multimedia-u/6254451954.jpg\",\n      \"screens\": [\"https://media.kg-portal.ru/anime/t/tenseishitaraslimedattaken2/trailers/42996t_2x.jpg\", \"https://pbs.twimg.com/media/E0JGD_vWQAkOJ2y.jpg\"]\n    }\n  },\n  {\n    \"id\": 7,\n    \"title\": {\n      \"ru\": \"Ru\",\n      \"jap\": \"Jap\"\n    },\n    \"description\": \"Description\",\n    \"images\": {\n      \"banner\": \"https://cdn1.ozone.ru/s3/multimedia-u/6254451954.jpg\",\n      \"screens\": [\"https://media.kg-portal.ru/anime/t/tenseishitaraslimedattaken2/trailers/42996t_2x.jpg\", \"https://pbs.twimg.com/media/E0JGD_vWQAkOJ2y.jpg\"]\n    }\n  }\n]"
+    }
+  ],
+  "callbacks": []
+}

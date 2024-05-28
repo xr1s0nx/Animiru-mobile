@@ -1,0 +1,1 @@
+export { TAnime } from './Anime';
